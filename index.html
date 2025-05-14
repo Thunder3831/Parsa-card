@@ -3,91 +3,85 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Thunder Site</title>
+  <title>Thunder Site - پارسا امیری</title>
   <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
       padding: 0;
-      background-color: black;
-      color: white;
       font-family: 'Vazirmatn', sans-serif;
+      color: white;
+      text-align: center;
+      background-color: #000;
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
       height: 100vh;
-      background-image: repeating-linear-gradient(
-        135deg,
-        rgba(255, 255, 255, 0.05) 0,
-        rgba(255, 255, 255, 0.05) 1px,
-        transparent 1px,
-        transparent 40px
-      );
-      text-align: center;
-      flex-direction: column;
-    }
-
-    .logo {
-      font-size: 3rem;
-      margin-bottom: 1rem;
-    }
-
-    .logo-icon {
-      font-size: 4rem;
     }
 
     h1 {
       font-family: 'Share Tech Mono', monospace;
-      font-size: 2rem;
-      margin-bottom: 2rem;
+      font-size: 2.2rem;
+      margin: 1rem 0;
     }
 
     .card {
-      background-color: rgba(255, 255, 255, 0.1);
+      background-color: rgba(255, 255, 255, 0.05);
       padding: 1.5rem;
-      border-radius: 10px;
+      border-radius: 15px;
+      max-width: 420px;
       width: 90%;
-      max-width: 400px;
-      margin-bottom: 2rem;
     }
 
     .card h2 {
-      margin-top: 0;
-      font-size: 1rem;
+      margin: 0.5rem 0;
       font-weight: normal;
     }
 
     .phone {
+      font-family: monospace;
       font-size: 1.2rem;
+      color: #fff;
+      direction: ltr;
+      text-align: center;
       margin: 1rem 0;
     }
 
     .btn {
       background-color: #25D366;
       color: white;
-      padding: 0.6rem 1.2rem;
+      padding: 0.6rem 1.5rem;
       border-radius: 30px;
       text-decoration: none;
       font-size: 1rem;
       display: inline-block;
       margin-top: 1rem;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #1ebe5c;
     }
 
     .slogan {
-      margin-top: 2rem;
       font-size: 0.95rem;
       color: #ccc;
+      margin-top: 2rem;
+    }
+
+    .icon {
+      font-size: 3rem;
+      margin-bottom: 1rem;
     }
   </style>
 </head>
 <body>
-  <div class="logo">
-    🌐
-  </div>
+  <div class="icon">🌐</div>
   <h1>Thunder site</h1>
   <div class="card">
     <h2>مدیریت: پارسا امیری</h2>
-    <div class="phone">📞 0937 341 2946</div>
+    <div class="phone">0937 341 2946</div>
     <p>برای دریافت نمونه کار داخل واتس‌اپ پیام ارسال فرمایید</p>
     <a class="btn" href="https://wa.me/989373412946" target="_blank">ارسال پیام واتساپ</a>
   </div>
